@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
     const user = req.query.user;
     res.send(user + "!");
 })
-
+//hihihi
 const users = [];
 app.post("/create_user", (req, res) => {
     const {user} = req.body;
